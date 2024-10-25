@@ -1,0 +1,21 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",              
+    "test": "echo \"Running tests...\" && exit 0", 
+
+    "user-script1": "echo 'This is user-defined script 1!'",  
+    "user-script2": "echo 'This is user-defined script 2!'",  
+    "user-script3": "echo 'This is user-defined script 3!'",  
+
+    "dev": "nodemon server.js"  
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "ISC"
+}
